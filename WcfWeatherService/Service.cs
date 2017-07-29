@@ -78,7 +78,8 @@ namespace WcfWeatherService
         InstanceContextMode = InstanceContextMode.PerCall)]
     public class WeatherService : IWeather
     {
-        private const string OWAPIKEY = "a11ae7fe03963ebd9cf2333292930746";
+        //Your OpenWeather ApiKey
+        private const string OWAPIKEY = "aui437fe03963ebd9cf2333292930746";
         private static List<City> cities;
         public WeatherService()
         {
