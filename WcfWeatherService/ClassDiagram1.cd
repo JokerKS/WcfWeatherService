@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WcfWeatherService.AppContext">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAQAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>AppContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.WeatherDbInitializer">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.Client">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.UniqueIdGenerator" Collapsed="true">
+    <Position X="9.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.Output">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEBAQAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.ForCity">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAIgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.Country">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.City">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ForCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.OpenWeather" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIgAAAAAAQAAQAAIAAAAAEAAAAAAA=</HashCode>
+      <FileName>OpenWeather.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WcfWeatherService.Forecast" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIwAADAAAAAAAAAIAAAAAQggAAAAA=</HashCode>
+      <FileName>OpenWeather.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WcfWeatherService.Wind" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIgCAAAAABAAAAAIAAAAAQAAAAAAA=</HashCode>
+      <FileName>OpenWeather.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WcfWeatherService.Clouds" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAAIgAAAAAAAAAAAAIAAAAAQAAAAAAA=</HashCode>
+      <FileName>OpenWeather.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WcfWeatherService.OpenWeatherMapService">
+    <Position X="5.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAUAAAAAAAgAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenWeatherMapService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.WeatherService" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="WcfWeatherService.WeatherService.CallbacksRequest" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Service.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAACAAAAAAAAAAAACAIAAEAACAFAAFAI=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WcfWeatherService.ServiceException" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.ServerHasNoWeatherData" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.CityNotFound" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="WcfWeatherService.ServiceException" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="6.312" />
+        <Point X="8.25" Y="6.406" />
+        <Point X="8.75" Y="6.406" />
+        <Point X="8.75" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.CountryNotFound" Collapsed="true">
+    <Position X="1" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.UniqueClientIdNotFound" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfWeatherService.NotCorrectLoginOrPassword" Collapsed="true">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WcfWeatherService.IWeather">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAABAI=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WcfWeatherService.IWeatherCallback">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
